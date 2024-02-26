@@ -1,0 +1,51 @@
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container{
+    border: 6px dotted;
+    border-color:#abb;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.country-area{
+    display: block;
+    text-align: center;
+    gap: 10px;
+    border: 2px groove;
+    border-color: aqua bisque;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.main{
+    display: none;
+
+}
+
+.main-country{
+    display: flex;
+}
+
+.container button{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+.container input{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
